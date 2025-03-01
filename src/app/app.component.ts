@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { environment } from '../environments/environment';
+import { AgentType } from './interface/environment.interface';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +11,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'zzz-team-synergy';
+  agents: AgentType[] = environment.agents;
 }

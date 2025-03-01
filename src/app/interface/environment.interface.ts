@@ -4,6 +4,7 @@ export interface environmentInterface {
 
 export interface AgentType {
     name: string;
+    image: string;
     rarity: "S"|"A";
     attribute: AttributeType;
     specialty: SpecialtyType;
