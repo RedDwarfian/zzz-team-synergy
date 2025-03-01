@@ -1,0 +1,4 @@
+# Licensing
+The files in /assets/zzz are __concept art, game graphics, or game audio__ of [Zenless Zone Zero](https://zenless.hoyoverse.com/), an RPG game copyrighted (©) by [HoYoverse](https://www.hoyoverse.com/).  Though this media is subject to copyright, it is believed that its use qualifies as [fair use](https://en.wikipedia.org/wiki/fair_use) under [U.S. fair use laws](https://en.wikipedia.org/wiki/fair_use#U.S._fair_use_factors) when used on this site, hosted on servers in the United States by [Github.](https://github.com/) This file's usage should also comply with HoYoverse's [intellectual property guidelines](https://www.hoyolab.com/article/143107).
+
+*Disclaimer* © HoYoverse. All rights reserved. 'HoYoverse' and 'Zenless Zone Zero' are trademarks, services marks, or registered trademarks of HoYoverse.
