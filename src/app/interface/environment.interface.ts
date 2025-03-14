@@ -3,7 +3,7 @@ export interface environmentInterface {
 }
 
 export interface AgentType {
-    name: string;
+    id: string;
     image: string;
     rarity: "S"|"A";
     attribute: AttributeType;

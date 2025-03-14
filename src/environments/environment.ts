@@ -3,7 +3,7 @@ import { environmentInterface } from "../app/interface/environment.interface";
 export const environment: environmentInterface = {
     agents: [
         {
-            name: "Alexandrina Sebastiane",
+            id: "Alexandrina Sebastiane",
             image: "assets/zzz/agent/Agent_Alexandrina_Sebastiane_Icon.png",
             rarity: "S",
             attribute: "Electric",
@@ -23,7 +23,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Anby Demara",
+            id: "Anby Demara",
             image: "assets/zzz/agent/Agent_Anby_Demara_Icon.png",
             rarity: "A",
             attribute: "Electric",
@@ -43,7 +43,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Anton Ivanov",
+            id: "Anton Ivanov",
             image: "assets/zzz/agent/Agent_Anton_Ivanov_Icon.png",
             rarity: "A",
             attribute: "Electric",
@@ -63,7 +63,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Asaba Harumasa",
+            id: "Asaba Harumasa",
             image: "assets/zzz/agent/Agent_Asaba_Harumasa_Icon.png",
             rarity: "S",
             attribute: "Electric",
@@ -83,7 +83,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Astra Yao",
+            id: "Astra Yao",
             image: "assets/zzz/agent/Agent_Astra_Yao_Icon.png",
             rarity: "S",
             attribute: "Ether",
@@ -103,7 +103,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Ben Bigger",
+            id: "Ben Bigger",
             image: "assets/zzz/agent/Agent_Ben_Bigger_Icon.png",
             rarity: "A",
             attribute: "Fire",
@@ -123,7 +123,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Billy Kid",
+            id: "Billy Kid",
             image: "assets/zzz/agent/Agent_Billy_Kid_Icon.png",
             rarity: "A",
             attribute: "Physical",
@@ -143,7 +143,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Burnice White",
+            id: "Burnice White",
             image: "assets/zzz/agent/Agent_Burnice_White_Icon.png",
             rarity: "S",
             attribute: "Fire",
@@ -163,7 +163,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Caesar King",
+            id: "Caesar King",
             image: "assets/zzz/agent/Agent_Caesar_King_Icon.png",
             rarity: "S",
             attribute: "Physical",
@@ -183,7 +183,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Corin Wickes",
+            id: "Corin Wickes",
             image: "assets/zzz/agent/Agent_Corin_Wickes_Icon.png",
             rarity: "A",
             attribute: "Physical",
@@ -203,7 +203,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Ellen Joe",
+            id: "Ellen Joe",
             image: "assets/zzz/agent/Agent_Ellen_Joe_Icon.png",
             rarity: "S",
             attribute: "Ice",
@@ -223,7 +223,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Evelyn Chevalier",
+            id: "Evelyn Chevalier",
             image: "assets/zzz/agent/Agent_Evelyn_Chevalier_Icon.png",
             rarity: "S",
             attribute: "Fire",
@@ -243,7 +243,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Grace Howard",
+            id: "Grace Howard",
             image: "assets/zzz/agent/Agent_Grace_Howard_Icon.png",
             rarity: "S",
             attribute: "Electric",
@@ -263,7 +263,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Hoshimi Miyabi",
+            id: "Hoshimi Miyabi",
             image: "assets/zzz/agent/Agent_Hoshimi_Miyabi_Icon.png",
             rarity: "S",
             attribute: "Ice",
@@ -283,7 +283,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Jane Doe",
+            id: "Jane Doe",
             image: "assets/zzz/agent/Agent_Jane_Doe_Icon.png",
             rarity: "S",
             attribute: "Physical",
@@ -303,7 +303,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Koleda Belobog",
+            id: "Koleda Belobog",
             image: "assets/zzz/agent/Agent_Koleda_Belobog_Icon.png",
             rarity: "S",
             attribute: "Fire",
@@ -323,7 +323,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Lighter",
+            id: "Lighter",
             image: "assets/zzz/agent/Agent_Lighter_Icon.png",
             rarity: "S",
             attribute: "Fire",
@@ -343,7 +343,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Luciana de Montefio",
+            id: "Luciana de Montefio",
             image: "assets/zzz/agent/Agent_Luciana_de_Montefio_Icon.png",
             rarity: "A",
             attribute: "Fire",
@@ -363,7 +363,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Nekomiya Mana",
+            id: "Nekomiya Mana",
             image: "assets/zzz/agent/Agent_Nekomiya_Mana_Icon.png",
             rarity: "S",
             attribute: "Physical",
@@ -383,7 +383,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Nicole Demara",
+            id: "Nicole Demara",
             image: "assets/zzz/agent/Agent_Nicole_Demara_Icon.png",
             rarity: "A",
             attribute: "Ether",
@@ -403,7 +403,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Piper Wheel",
+            id: "Piper Wheel",
             image: "assets/zzz/agent/Agent_Piper_Wheel_Icon.png",
             rarity: "A",
             attribute: "Physical",
@@ -423,7 +423,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Qingyi",
+            id: "Qingyi",
             image: "assets/zzz/agent/Agent_Qingyi_Icon.png",
             rarity: "S",
             attribute: "Electric",
@@ -443,7 +443,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Seth Lowell",
+            id: "Seth Lowell",
             image: "assets/zzz/agent/Agent_Seth_Lowell_Icon.png",
             rarity: "A",
             attribute: "Electric",
@@ -463,7 +463,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Soldier 11",
+            id: "Soldier 11",
             image: "assets/zzz/agent/Agent_Soldier_11_Icon.png",
             rarity: "S",
             attribute: "Fire",
@@ -483,7 +483,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Soukaku",
+            id: "Soukaku",
             image: "assets/zzz/agent/Agent_Soukaku_Icon.png",
             rarity: "A",
             attribute: "Ice",
@@ -503,7 +503,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Tsukishiro Yanagi",
+            id: "Tsukishiro Yanagi",
             image: "assets/zzz/agent/Agent_Tsukishiro_Yanagi_Icon.png",
             rarity: "S",
             attribute: "Electric",
@@ -523,7 +523,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Von Lycaon",
+            id: "Von Lycaon",
             image: "assets/zzz/agent/Agent_Von_Lycaon_Icon.png",
             rarity: "S",
             attribute: "Ice",
@@ -543,7 +543,7 @@ export const environment: environmentInterface = {
             ]
         },
         {
-            name: "Zhu Yuan",
+            id: "Zhu Yuan",
             image: "assets/zzz/agent/Agent_Zhu_Yuan_Icon.png",
             rarity: "S",
             attribute: "Ether",
