@@ -22,5 +22,5 @@ export interface SynergyType {
 export type AttributeType = "Electric"|"Physical"|"Ether"|"Fire"|"Ice";
 export type SpecialtyType = "Support"|"Stun"|"Attack"|"Defense"|"Anomaly";
 export type DamageType = "Slash"|"Pierce"|"Strike";
-export type FactionType = "Victoria Housekeeping Co."|"Cunning Hares"|"Belobog Heavy Industries"|"Hollow Special Operations Section 6"|"Stars of Lyra"|"Sons of Calydon"|"Criminal Investigation Special Response Team"|"Obol Squad";
+export type FactionType = "Victoria Housekeeping Co."|"Cunning Hares"|"Belobog Heavy Industries"|"Hollow Special Operations Section 6"|"Stars of Lyra"|"Sons of Calydon"|"Criminal Investigation Special Response Team"|"Defense Force";
 export type AssistType = "Defensive"|"Evasive";

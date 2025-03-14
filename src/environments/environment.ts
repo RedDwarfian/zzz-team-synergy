@@ -423,6 +423,26 @@ export const environment: environmentInterface = {
             ]
         },
         {
+            id: "Pulchra Fellini",
+            image: "assets/zzz/agent/Agent_Pulchra_Fellini_Icon.png",
+            rarity: "A",
+            attribute: "Physical",
+            specialty: "Stun",
+            damage: ["Slash"],
+            faction: "Sons of Calydon",
+            assist: "Evasive",
+            synergy: [
+                {
+                    type: "specialty",
+                    value: "Attack"
+                },
+                {
+                    type: "faction",
+                    value: "Sons of Calydon"
+                }
+            ]
+        },
+        {
             id: "Qingyi",
             image: "assets/zzz/agent/Agent_Qingyi_Icon.png",
             rarity: "S",
@@ -463,13 +483,33 @@ export const environment: environmentInterface = {
             ]
         },
         {
+            id: "Soldier 0 - Anby",
+            image: "assets/zzz/agent/Agent_Soldier_0_Anby_Icon.png",
+            rarity: "S",
+            attribute: "Electric",
+            specialty: "Attack",
+            damage: ["Slash"],
+            faction: "Defense Force",
+            assist: "Defensive",
+            synergy: [
+                {
+                    type: "specialty",
+                    value: "Stun"
+                },
+                {
+                    type: "specialty",
+                    value: "Support"
+                }
+            ]
+        },
+        {
             id: "Soldier 11",
             image: "assets/zzz/agent/Agent_Soldier_11_Icon.png",
             rarity: "S",
             attribute: "Fire",
             specialty: "Attack",
             damage: ["Slash"],
-            faction: "Obol Squad",
+            faction: "Defense Force",
             assist: "Defensive",
             synergy: [
                 {
@@ -478,7 +518,7 @@ export const environment: environmentInterface = {
                 },
                 {
                     type: "faction",
-                    value: "Obol Squad"
+                    value: "Defense Force"
                 }
             ]
         },
@@ -499,6 +539,26 @@ export const environment: environmentInterface = {
                 {
                     type: "faction",
                     value: "Hollow Special Operations Section 6"
+                }
+            ]
+        },
+        {
+            id: "Trigger",
+            image: "assets/zzz/agent/Agent_Trigger_Icon.png",
+            rarity: "S",
+            attribute: "Electric",
+            specialty: "Stun",
+            damage: ["Pierce"],
+            faction: "Defense Force",
+            assist: "Defensive",
+            synergy: [
+                {
+                    type: "specialty",
+                    value: "Attack"
+                },
+                {
+                    type: "attribute",
+                    value: "Electric"
                 }
             ]
         },
