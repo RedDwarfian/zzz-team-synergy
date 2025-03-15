@@ -1,4 +1,4 @@
-import { environmentInterface } from "../app/interface/environment.interface";
+import { environmentInterface } from "../app/interfaces/environment.interface";
 
 export const environment: environmentInterface = {
     agents: [
@@ -484,7 +484,7 @@ export const environment: environmentInterface = {
         },
         {
             id: "Soldier 0 - Anby",
-            image: "assets/zzz/agent/Agent_Soldier_0_Anby_Icon.png",
+            image: "assets/zzz/agent/Agent_Soldier_0_-_Anby_Icon.png",
             rarity: "S",
             attribute: "Electric",
             specialty: "Attack",

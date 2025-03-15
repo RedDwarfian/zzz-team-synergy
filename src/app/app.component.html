@@ -1,7 +1,8 @@
 <main>
-  @for (agent of agents; track $index) {
+  <!-- @for (agent of agents; track $index) {
     <img class="agent-circle" [src]="agent.image" [alt]="agent.id" [title]="agent.id" />
-  }
+  } -->
+  <graph [nodes]="nodes" [links]="links"></graph>
 </main>
 <footer>
   <p>The images used are <u>concept art, game graphics, or game audio</u> of <a href="https://zenless.hoyoverse.com/" title="Zenless Zone Zero">Zenless Zone Zero</a>, an RPG game copyrighted (©) by <a href="https://www.hoyoverse.com/" title="HoYoverse">HoYoverse</a>.  Though this media is subject to copyright, it is believed that its use qualifies as <a href="https://en.wikipedia.org/wiki/fair_use" title="wikipedia:fair use">fair use</a> under <a href="https://en.wikipedia.org/wiki/fair_use#U.S._fair_use_factors" title="wikipedia:fair use">U.S. fair use laws</a> when used on this site, hosted on servers in the United States by <a href="https://github.com/">Github.</a> This file's usage should also comply with HoYoverse's <a target="_blank" rel="nofollow noreferrer noopener" href="https://www.hoyolab.com/article/143107">intellectual property guidelines</a>.</p>

@@ -1,8 +1,8 @@
 export interface environmentInterface {
-    agents: AgentType[];
+    agents: AgentDetails[];
 }
 
-export interface AgentType {
+export interface AgentDetails {
     id: string;
     image: string;
     rarity: "S"|"A";
@@ -15,7 +15,7 @@ export interface AgentType {
 };
 
 export interface SynergyType {
-    type: keyof AgentType;
+    type: keyof AgentDetails;
     value: AttributeType|SpecialtyType|DamageType|FactionType|AssistType;
 };
 

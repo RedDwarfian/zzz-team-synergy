@@ -1,0 +1,14 @@
+<svg #svg [attr.width]="options.width" [attr.height]="options.height">
+    <g [zoomableOf]="svg">
+        @for (link of links; track $index) {
+            <g [linkVisual]="link"></g>
+        }
+        @for (node of nodes; track node.id) {
+            <g
+                [agentNodeVisual]="node"
+                [draggableNode]="node"
+                [draggableInGraph]="graph">
+            </g>
+        }
+    </g>
+</svg>
